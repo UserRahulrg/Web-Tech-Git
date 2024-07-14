@@ -1,0 +1,39 @@
+
+*{
+    font-style: italic;
+    padding: 24px 24px 24px 24px;
+    font-size: 36px;
+    background-color: lightcyan;
+}
+
+h3::marker{
+    content: '@';
+}
+
+p::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: inherit;
+}
+
+.divmsd::before{
+    content: "Mahendra";
+    color: orange;
+}
+
+.divmsd::after{
+    content: "Dhoni";
+    color: green;
+}
+
+.divrs::before{
+    content: "Rohit";
+    color: orange;
+}
+
+.divrs::after{
+    content: "Sharma";
+    color: green;
+}
