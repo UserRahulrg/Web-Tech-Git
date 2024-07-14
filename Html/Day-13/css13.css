@@ -1,0 +1,44 @@
+*{
+    padding: 20px 20px 20px;
+    font-size: 29px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightcyan;
+    font-style: italic;
+}
+
+div[title~="flex2"]{
+    color: orangered;
+
+}
+
+div[title~="flex"]{
+    color: lightseagreen;
+}
+
+.result{
+    background-color: inherit;
+    /* font-size: 12px;  */
+}
+
+.box{
+    background-color: whitesmoke;
+    opacity: 80%;
+
+}
+
+input{
+    width: 400px;
+    height: 38px;
+    border-radius: 8px;
+}
+
+button{
+    width: inherit;
+    height: inherit;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: cyan;
+}

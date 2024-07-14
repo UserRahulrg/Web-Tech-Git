@@ -1,0 +1,45 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 16px 16px 16px 16px;
+
+}
+
+article p:hover{
+    background-color: lightseagreen;
+}
+
+h3{
+    color: violet;
+}
+
+h3:hover{
+    background-color: lightseagreen;
+}
+
+.divclass1 h3{
+    color: indigo;
+}
+
+.divclass2 h3{
+    color: blue;
+}
+
+.divclass3 h3{
+    color: green;
+}
+
+.divclass4 h3{
+    color: yellow;
+}
+
+.divclass5 h3{
+    color: orange;
+}
+
+.divclass6 h3{
+    color: red;
+}
+
+
+

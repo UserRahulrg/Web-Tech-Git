@@ -1,0 +1,14 @@
+*{
+  padding: 10px 10px 10px 10px;
+  background-color: lightcoral;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+.navigation{
+  display: grid;
+}
+
+.textarea{
+    resize: none;
+}

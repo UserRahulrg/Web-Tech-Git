@@ -1,0 +1,35 @@
+*{
+    /* background-color: lightcoral; */
+    text-decoration: solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding: 1px 1px 1px 1px ;
+
+}
+
+thead{
+    
+    background-color: black;
+    color: white;
+}
+
+tbody{
+    background-color: lightcoral;
+}
+
+h3:hover{
+    background-color: lightseagreen;
+    
+}
+
+h2{
+    font-size: 23px;
+}
+
+h3{
+    font-size: 23px;
+}
+
+h4 li{
+    cursor: pointer;
+}

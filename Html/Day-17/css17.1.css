@@ -1,0 +1,55 @@
+*{
+    background-color: lightcoral;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.card1{
+    width: 45%;
+    height: 50%;  
+    background-color: aqua;  
+}
+
+.card1div1{
+    width: 90%;
+    height: 60%;
+    background-image: url("./images/hr.jpg");
+    background-repeat: no-repeat;
+    background-size: 270px 260px;
+    background-position: top center;
+       
+}
+
+.card1div2,a,h3{
+    background-color: inherit;
+}
+
+
+.card2{
+    
+    width: 45%;
+    height: 50%;
+    background-color: blueviolet;
+    background-image: url("./images/srk.jpg");
+    background-repeat: no-repeat;
+    background-size: 270px 260px;
+    background-position: top center;
+
+}
+
+.card3{
+    width: 45%;
+    height: 50%;
+    background-color: brown;
+    background-image: url("./images/v-Black_tshirt.webp");
+    background-repeat: no-repeat;
+    background-size: 270px 260px;
+    background-position: top center;
+
+}
+
+li{
+    background-color: inherit;
+    position: ;
+}
+

@@ -1,0 +1,87 @@
+*{
+    background-color: rgb(234, 174, 121);
+    padding-left: 31px;
+}
+
+.heading{
+    
+    text-decoration: solid;
+    text-justify: inherit;
+    display: grid;
+    
+}
+
+.header01{
+    display: grid;
+}
+
+.headerrow01{
+    padding: 1px 1px 1px 1px;
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    background-color: lightcyan;
+    
+}
+
+.headerrow01  :hover{
+    background-color:  lightgreen;
+    animation-delay: 500ms; 
+}
+
+.footermain{
+    background-color: lightcyan;
+    padding: 1px 1px 1px 1px;
+    font-size: 24px;
+}
+
+.footercontainer{
+    padding: 1px 1px 1px 1px;
+    background-color: inherit;
+}
+
+.album-1,.album-2,.album-3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+
+.song1audioquality{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.footerrow01{
+    padding: 1px 1px 1px 1px;
+    display: inline-flex;
+    background-color: inherit;
+}
+
+.col01{
+    padding: 1px 1px 1px 1px;
+    background-color: inherit;
+}
+
+.col02{
+    padding: 1px 1px 1px 1px;
+    background-color: inherit;
+}
+
+.footerrow02{
+    padding: 1px 1px 1px 1px;
+    display: inline-flex;
+    background-color: inherit;
+}
+
+.col03{
+    padding: 1px 1px 1px 1px;
+    background-color: inherit;
+}
+
+.col04{
+    padding: 1px 1px 1px 1px;
+    background-color: inherit;
+}
+
+
+

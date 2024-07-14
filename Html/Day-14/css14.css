@@ -1,0 +1,58 @@
+@font-face{
+    font-family: ;
+    src:local();
+}
+
+*{
+    padding: 10px 10px 10px 10px;
+    background-color: lightcyan;
+}
+
+h1{
+    font-size: 38px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+p{
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+h3{
+    color: red;
+    font-style: italic;
+}
+
+#box{
+    background-color: lightskyblue;
+
+}
+
+h4{
+    text-decoration: underline;
+    font-size: 26px;
+    letter-spacing: 12px;
+    /* place-items: ; */
+
+}
+
+h5{
+    font-size: 60px;
+    text-shadow: 300px 0px 0px orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
