@@ -1,1 +1,0 @@
-hi this is new Read me file to check the git connection is working fine or not.
