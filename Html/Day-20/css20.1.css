@@ -1,11 +1,43 @@
 *{
     background-color: white;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header{
+    width: 100%;
+    height: fit-content;
+    background-color: lightseagreen;
+
+}
+
+.headermain{
+    width: 100%;
+    height: inherit;
+    background-color: lightseagreen;
+
+}
+
+nav{
+    width: 100%;
+    height: inherit;
+    background-color: lightseagreen;
+    display: flex;
+    align-content: end;
+    gap: 20px;
+    font-size: 21px;
+}
+
+li,a{
+    background-color: lightseagreen;
 }
 
 .container1{
-    width: 60%;
+    width: 75%;
     height: 60%;
-    background-color: lightblue;
+    background-color: whitesmoke;
+    padding: 106px 200px 200px 140px;
 
 }
 
@@ -21,5 +53,23 @@ section{
 button{
     width: inherit;
     height: inherit;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: rgba(12, 165, 231, 0.848);
 }
 
+button:hover{
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 24px;
+}
+
+article{
+    padding: 0px 0px 10px 0px;
+    font-style: italic;
+    font-weight: 500;
+}
