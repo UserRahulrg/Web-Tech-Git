@@ -1,0 +1,25 @@
+*{
+    background-color: white;
+}
+
+.container1{
+    width: 60%;
+    height: 60%;
+    background-color: lightblue;
+
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./image/Screen.png);
+    display: flex;
+    align-content: center;
+}
+
+button{
+    width: inherit;
+    height: inherit;
+}
+
