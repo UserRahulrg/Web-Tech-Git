@@ -15,12 +15,14 @@ section{
     width: 80%;
     height: 50%;
     background-color: lightseagreen;
+    
 }
 
 .child1{
     width: 25%;
     height: 30%;
     background-color: lightpink;
+    margin-top: 5px;
 }
 
 .child16{
@@ -39,10 +41,18 @@ section{
     width: 25%;
     height: 30%;
     background-color: lightsteelblue;
+    margin-top: 5px;
 }
 
 .child3{
     width: 25%;
     height: 30%;
     background-color: lightgreen;
+    margin-top: 5px;
+}
+
+p{
+    width: 100%;
+    height: inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
