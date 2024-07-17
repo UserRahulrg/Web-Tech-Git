@@ -1,0 +1,48 @@
+*{
+    background-color: lightcoral;
+     
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+
+}
+
+section{
+    width: 80%;
+    height: 50%;
+    background-color: lightseagreen;
+}
+
+.child1{
+    width: 25%;
+    height: 30%;
+    background-color: lightpink;
+}
+
+.child16{
+    width: 25%;
+    height: 15%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.child2{
+    width: 25%;
+    height: 30%;
+    background-color: lightsteelblue;
+}
+
+.child3{
+    width: 25%;
+    height: 30%;
+    background-color: lightgreen;
+}
