@@ -58,7 +58,8 @@ p{
     height: 84%;
     
     background-image: url("./images/Nissan_GTR_ScreenFit.png");
-    background-size: 150%;
+    background-size: 168% ;
+    background-position: center -4px;
     background-repeat: no-repeat;
 }
 
@@ -68,5 +69,6 @@ p{
     background-image: url("./images/2014-Koenigsegg-Agera-One-1-004-1080.jpg");
     background-size: 150%;
     background-repeat: no-repeat;
+    background-position: center -4px ;
 
 }
