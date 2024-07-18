@@ -1,0 +1,59 @@
+*{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 5px 5px 5px;   
+
+}
+
+body{
+    
+}
+
+
+
+h3{
+    color: black;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card1{
+    width: 32%;
+    height: 72%;
+    background-image: url("images/2014-Koenigsegg-Agera-One-1-004-1080.jpg");
+    background-repeat: no-repeat;
+    overflow: visible;
+    position: relative;
+    background-size: 150%;
+}
+
+
+
+.card1.frame{
+
+}
+
+.card2{
+    width: 32%;
+    height: 84%;
+    
+    background-image: url("./images/Nissan_GTR_ScreenFit.png");
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.card3{
+    width: 32%;
+    height: 72%;
+    background-image: url("./images/2014-Koenigsegg-Agera-One-1-004-1080.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+
+}

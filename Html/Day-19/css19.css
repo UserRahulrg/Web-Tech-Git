@@ -6,6 +6,7 @@
 
 header{
     background-color: black;
+    
 }
 
 .navcolor{
@@ -38,6 +39,7 @@ h1{
     width: 50%;
     height: 100%;
     background-color: lightgreen;
+    background-color: inherit;
 }
 
 .section2{
