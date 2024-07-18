@@ -34,7 +34,20 @@ section{
     background-size: 150%;
 }
 
+p{    
+    color: white;
+    font-weight: 600;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    overflow: hidden;
+    top: -900px;
+    transition: all 1.5s ease-in-out;
+    z-index: 2;
+}
 
+.card1:hover p{
+    top: 0px;
+}
 
 .card1.frame{
 
