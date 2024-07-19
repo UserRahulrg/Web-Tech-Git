@@ -50,7 +50,7 @@ p{
 }
 
 .card1.frame{
-
+    
 }
 
 .card2{
@@ -71,4 +71,7 @@ p{
     background-repeat: no-repeat;
     background-position: center -4px ;
 
+}
+.card:hover{
+    scale: 1.3;
 }
