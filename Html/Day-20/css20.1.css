@@ -2,7 +2,7 @@
     background-color: white;
     
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    font-style: italic;
 }
 
 header{
@@ -14,9 +14,13 @@ header{
 
 .headermain{
     width: 100%;
-    height: inherit;
+    height: 70px;
     background-color: lightseagreen;
 
+}
+
+#logo{
+    font-size: 25px;
 }
 
 nav{
@@ -25,29 +29,45 @@ nav{
     background-color: lightseagreen;
     display: flex;
     align-content: end;
-    gap: 20px;
-    font-size: 21px;
+
+    font-size: 23px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 li,a{
+    padding-top: 15px;
     background-color: lightseagreen;
+    color: black;
+    font-weight: 700;
 }
 
 .container1{
-    width: 75%;
+    width: 76%;
     height: 60%;
     background-color: whitesmoke;
-    padding: 106px 200px 200px 140px;
+    padding: 106px 0px 20px 140px;
 
 }
 
 section{
-    width: 100%;
+    float: right;
+    width: 80%;
     height: 100%;
     background-repeat: no-repeat;
     background-image: url(./image/Screen.png);
+    align-content: center;
+}
+
+.maincontent{
+    align-content: first baseline;
+}
+
+.infobar{
     display: flex;
     align-content: center;
+    padding-left: 30%;
 }
 
 button{
@@ -69,7 +89,53 @@ h3{
 }
 
 article{
-    padding: 0px 0px 10px 0px;
     font-style: italic;
     font-weight: 500;
 }
+
+.sidebar{
+    width: 20%;
+    float: left;
+    padding-top: 60px;
+    font-size: 21px;
+}
+
+.footer{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(250, 246, 215);   
+    padding-top: 40px;
+    margin: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer-col-1{
+    font-style: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.row-12{
+    font-size: 18px;
+    display: flex;
+    
+
+}
+
+
+
