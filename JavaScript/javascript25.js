@@ -5,11 +5,11 @@ var gf = "Anamika";
 console.log(gf);
 
 
-let gff = "Niharika";
+let gff = "Priti";
 console.log(gff);
 
 
-gff = "Anita";
+gff = "Priya";
 console.log(gff);
 
 
