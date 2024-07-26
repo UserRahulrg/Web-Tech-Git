@@ -1,0 +1,49 @@
+*{
+    font-style: italic;
+    background-color: mediumaquamarine;
+    padding: 10px 10px 10px 10px;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 24px;
+
+}
+
+table{
+    width: 90%;
+    height: fit-content;
+    box-shadow: 10px 20px 36px 10px black ;   
+    font-size: 18px;
+    background-color: white;
+
+}
+
+.tablediv{
+    border: 10px;
+    
+    
+}
+
+tr,th,td{
+    background-color: white;
+}
+
+button{
+    background-color: rgb(139, 219, 219);
+}
+
+button:hover{
+    background-color: rgb(111, 228, 111);
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
