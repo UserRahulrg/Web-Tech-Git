@@ -31,10 +31,10 @@ var name = document.getElementById("name");
 var mobileno = document.getElementById("mobileno");
 var email = document.getElementById("email");
 var image = document.getElementById("photo");
+var var_table = document.getElementById('customer')
 
 function btnaddclick(){
 
-    let id2 = parseInt(valueOf(id));
     let name = name.value;
     let mobileno = parseInt(value.mobileno);
     let id = parseInt(value.id);
@@ -76,11 +76,13 @@ function btnaddclick(){
         varbtnremove.appendChild(vartdremove);
         vartdremove.appendChild(vartabletr);
 
-
-
-
-
-
+        var vartdimage = document.createElement('tr');
+        var vartdimage_data_1 = document.createElement('img');
+        vartdimage_data_1.setAttribute('src',array.image);
+        vartdimage_data_1.setAttribute('width','90px');
+        vartdimage.appendChild(vartdimage_data_1);
+        vartabletr.appendChild(vartdimage);
+        vartable.appendChild(vartabletr);
 
 
     }
