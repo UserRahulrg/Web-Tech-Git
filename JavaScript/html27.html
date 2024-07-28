@@ -1,7 +1,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="./day27css.css">
-        <script src="./JavaScrip27.js"></script>
+        
+        <title>CRUD Operations</title>
     </head>
     <body>
 
@@ -9,38 +10,49 @@
         <h3>Global and Block Scope!!</h3>
         <div class="tablediv">
             <table border="6px">
-
                 <tr>
                     <th>User Id</th>
-                    <th>Name</th>
-                    <th>Mobile No</th>
-                    <th>Email</th>
-                    <th>Photo</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Rahul Gautam</td>
-                    <td>84</td>
-                    <td>newrahulgautam@gmail.com</td>
-                    <td>None</td>
-                </tr>
-                <tr>
                     <td><input type="text" id="userid" placeholder="Enter Serial No"></td>
+                </tr>
+                <tr>
+                    <th>Name</th>
                     <td><input type="text" id="name" placeholder="Enter Name"></td>
+                </tr>    
+                <tr>
+                    <th>Mobile No</th>
                     <td><input type="text" id="mobileno" placeholder="Enter Mobile No"></td>
+                </tr>    
+                <tr>
+                    <th>Email</th>
                     <td><input type="text" id="email" placeholder="Enter Email Id"></td>
+                </tr>    
+                <tr>
+                    <th>Photo</th>
                     <td><input type="file" id="image"></td>
                 </tr>
+                    
                 <tr>
-                    <td><button id="btnaddclick()">Submit</button></td>
-                    <td><button>Create</button></td>
-                    <td><button>Read</button></td>
-                    <td><button>Update</button></td>
-                    <td><button>Delete</button></td>
+                    <td><button id="" onclick="btnaddclick()">Submit</button></td>
+                    <td><button onclick="btnaddclick()">Create</button><button>Read</button><button>Update</button><button>Delete</button></td>
                 </tr>
             </table>
-    
+            <table class="customer_table" id="customer" border="3px" align="center">
+                <tr>
+                    <td>Remove</td>
+                    <td>Id</td>
+                    <td>Name</td>                                 
+                    <td>MobileNo</td>
+                    <td>Email Id</td>
+                    <td>Image</td>
+                </tr>
+            </table>
         </div>
+        <footer>
+            <tr>
+                <td><button onclick="updateTime()" id="headingtime">Time</button></td>
+            </tr>
+            <script src="./JavaScrip27.js"></script>
+        </footer>
     </body>
 </html>
 
