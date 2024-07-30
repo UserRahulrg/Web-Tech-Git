@@ -44,7 +44,7 @@ function addCustomerInTable(objcust){
    
 
     var varTableTr = document.createElement('tr');
-    varTableTr.setAttribute('id','tr_'+objcust.id.ToString());
+    varTableTr.setAttribute('id','tr_'+objcust.id.toString());
    
     var varTdRemove = document.createElement('td');
     var varBtnRemove = document.createElement('button');
