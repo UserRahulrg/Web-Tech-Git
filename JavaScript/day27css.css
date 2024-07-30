@@ -1,6 +1,6 @@
 *{
     font-style: italic;
-    background-color: mediumaquamarine;
+    background-color: whitesmoke;
     padding: 10px 10px 10px 10px;
 }
 
@@ -39,7 +39,12 @@ button:hover{
 
 }
 
+.customer_table{
+    margin-top: 10px;
+    width: fit-content;
+    height: fit-content;
 
+}
 
 
 

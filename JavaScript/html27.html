@@ -1,8 +1,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="./day27css.css">
-        
-        <title>CRUD Operations</title>
+    <title>CRUD Operations</title>
+    
     </head>
     <body>
         <h3>Global and Block Scope!!</h3>
@@ -25,16 +25,18 @@
                     <td><input type="text" id="email" placeholder="Enter Email Id"></td>
                 </tr>    
                 <tr>
-                    <th>Photo</th>
+                    <th>Image</th>
                     <td><input type="file" id="image"></td>
                 </tr>
                     
                 <tr>
-                    <td><button type="submit" id="submit" onclick="btnaddclick()">Submit</button></td>
-                    <td><button onclick="btnaddclick()">Create</button><button>Read</button><button>Update</button><button>Delete</button></td>
+                    <td><button type="submit" id="submitbutton" onclick="btnaddclick()">Submit</button></td>
                 </tr>
             </table>
-            <table class="customer_table" id="customer" border="3px" align="center">
+
+        </div>
+
+                    <table class="customer_table" id="customertable" border="3px" align="center">
                 <tr>
                     <td>Remove</td>
                     <td>Id</td>
@@ -44,17 +46,11 @@
                     <td>Image</td>
                 </tr>
             </table>
-        </div>
-        <footer>
-            <tr>
-                <td><button onclick="updateTime()" id="headingtime">Time</button></td>
-            </tr>
-            <script src="./JavaScrip27.js"></script>
-        </footer>
     </body>
     <footer>
 
     </footer>
+    <script src="./JavaScrip27.js"></script>
 </html>
 
 
