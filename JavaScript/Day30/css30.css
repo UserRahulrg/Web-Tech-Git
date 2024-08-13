@@ -1,3 +1,42 @@
 *{
     background-color: lightcoral;
 }
+
+header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 20%;
+    height: fit-content;
+}
+
+nav{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    margin: 5%;
+    font-size: 21px;
+    
+}
+
+li{
+    padding: 0% 10% 0% 0%;
+}
+
+button:hover{
+    
+    width: inherit;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+
