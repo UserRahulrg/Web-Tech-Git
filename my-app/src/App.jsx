@@ -1,3 +1,5 @@
+import './App.css'
+
 import { Fragment } from "react";
 
 import States from "./components/States/States";
@@ -9,7 +11,7 @@ const App = () => {
     <Fragment>
       <h1></h1>
       <States/>
-      <h2>Hello JavaScript</h2>
+      <h4><Counter/></h4>
       <Counter/>
     </Fragment>
     
@@ -18,6 +20,9 @@ const App = () => {
 
 
 export default App;
+
+
+
 
 
 

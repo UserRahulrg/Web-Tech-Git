@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-content: space-evenly;
+}
+
+nav{
+    font-size: 24px;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

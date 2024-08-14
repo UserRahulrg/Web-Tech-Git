@@ -1,3 +1,12 @@
+*{
+  background-color: whitesmoke;
+  margin-top: 4%;
+  margin-left: 4%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  
+}
+
 .App {
   text-align: center;
 }
