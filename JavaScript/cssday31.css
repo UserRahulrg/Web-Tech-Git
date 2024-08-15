@@ -1,18 +1,35 @@
 *{
     background-color: black;
     color: white;
+    padding: 1% 1% 1% 1%;
 }
 
 header{
+    width: 100%;
+    height: fit-content;
+    background-color: aqua;
     display: flex;
-    align-content: space-evenly;
+        
+}
+
+.logo{
+    width: 20%;
+    height: fit-content;
+    font-size: 17px;
+    font-weight: 700;
 }
 
 nav{
+    width: 80%;
+    height: fit-content;
     font-size: 24px;
     display: flex;
-    
+    background-color: blueviolet;
 }
+li{
+    margin:auto
+}
+
 
 
 
