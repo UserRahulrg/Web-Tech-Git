@@ -36,11 +36,15 @@ function createTable(){
 
     let cell1 = row.insertCell();
     let cell2 = row.insertCell();
+    let cell3 =row.insertCell();
 
     var name = document.getElementById('name');
     var color = document.getElementById('color');
+    var branch = document.getElementById('branch');
+
     cell1.textContent = name.value;
     cell2.textContent = color.value;
+    cell3.textContent = branch .value;
 
     document.body.appendChild(table);
 }
