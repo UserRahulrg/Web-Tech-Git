@@ -5,7 +5,7 @@
 
     <body>
         <head>
-
+            
         </head>
         <form action="payscript.php" method="post">
             <div class="formcheckout">
