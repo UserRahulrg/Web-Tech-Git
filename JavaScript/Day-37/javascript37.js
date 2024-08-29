@@ -19,10 +19,9 @@ function AcceptANumberAndReverseANumber(){
     prompt(number);
 
     var i = 0;
-    for(i < number)
-        {
+    if(i < number){
         if(number > 10){
-           
+           prompt();
         }
     }
 }
@@ -41,6 +40,18 @@ function Parentparent(){
     }
 
     return Child;
+}
+
+
+function NestedFunction(){
+
+    InnerNestedFunction();
+    
+    function InnerNestedFunction(){
+        prompt("Inner Function!!");
+    }
+
+    return InnerNestedFunction;
 }
 
 
