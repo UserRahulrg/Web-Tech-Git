@@ -65,6 +65,16 @@ function NestedFunction(){
     return InnerNestedFunction;
 }
 
+function NestedFunction(){
+
+    InnerNestedFunction();
+    
+    function InnerNestedFunction(){
+        prompt("Inner Function!!");
+    }
+
+    return InnerNestedFunction;
+}
 
 
 
