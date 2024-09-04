@@ -7,6 +7,21 @@ function firstClass(){
 }
 
 
+let arrFunctVar = (a,b) => (a**b);
+var c = 2;
+var d = 5;
+console.log(arrFunctVar(c,d));
+
+
+
+                                   
+
+
+
+
+
+
+
 
 
 
