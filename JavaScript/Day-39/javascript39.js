@@ -12,6 +12,19 @@ var c = 2;
 var d = 5;
 console.log(arrFunctVar(c,d));
 
+const arra = new Array(10,20,30,40,50);
+console.log(arra);
+
+const a =10;
+const b =20;
+const myArray = [function sum(a,b){return(a+b)},
+                 function sub(a,b){return(a-b)}];
+const myNewArray = [(a,b) => {return(a+b)},(a,b) =>
+                    {return(a-b)}];
+console.log(myArray);
+console.log(myNewArray);
+
+
 
 
                                    

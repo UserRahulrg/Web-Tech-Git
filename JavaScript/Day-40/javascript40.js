@@ -6,6 +6,10 @@ console.log(arr[2]);
 console.log(arr[6]);
 console.log(arr[7]);
 
+const arra = new Array(10,20,30,40,50);
+console.log(arra);
+
+
 
 
 
