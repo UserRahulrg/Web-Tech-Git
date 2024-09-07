@@ -25,6 +25,15 @@ console.log(myArray);
 console.log(myNewArray);
 
 
+const arr = [1,2,3,4,5];
+const output = [];
+
+arr.forEach((val,i,array)=>{
+    output.push(val + 10);
+})
+
+console.log(output);
+
 
 
                                    
