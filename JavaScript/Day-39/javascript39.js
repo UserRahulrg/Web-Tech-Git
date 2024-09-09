@@ -34,7 +34,17 @@ arr.forEach((val,i,array)=>{
 
 console.log(output);
 
+const arr1 = ["sun","mon","tue"];
+const arr2 = ["wed","thu","fri","Sat"];
 
+const res = arr1.concat(arr2);
+console.log(res);
+
+
+let arrjs = ["j","a","v","a","s","c","r","i","p","t"];
+const resarr= arrjs.join("");
+
+console.log(resarr);
 
                                    
 
