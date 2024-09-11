@@ -63,9 +63,17 @@ const objs = {
 delete obj["is logging"]
 console.log(obj)
                                    
+const user = {
+    name:"Aditya",
+    age:23,
+    userinfo:()=>{
+        console.log(user);
+        console.log('${user.name}');
+    }
+}
+console.log(user);
 
-
-
+ 
 
 
 
