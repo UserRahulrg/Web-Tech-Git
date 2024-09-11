@@ -46,6 +46,22 @@ const resarr= arrjs.join("");
 
 console.log(resarr);
 
+console.log("This is a object!")
+const obj ={
+    1 : 1 ,
+    2 : "Tinku",
+    3 : "tinku.org",
+    4 : "Tinku lamba",
+}
+console.log(obj);
+
+const objs = {
+    name : "Chombu",
+    age : 24,
+    "is logging" : true,
+}
+delete obj["is logging"]
+console.log(obj)
                                    
 
 
