@@ -73,11 +73,68 @@ const user = {
 }
 console.log(user);
 
- 
+//write a function that takes an array and find prime number.
+// arr = [10,12,14,16,19,21]
+
+const qsarr = [10,12,14,16,19,21];
+
+var i = 0;
+var primeNumber = 0;
+var count = 0;
 
 
 
+    for(i=0;i<6;i++){
+        if(qsarr[i]%2 == 1){
+            if(qsarr[i]%3){
+                if(qsarr[i]%4){
+                    count++;
+                }
+                count++;
+            }
+            count++;
+        }
+        count++;
+        
+        console.log(count);
 
+        if(count>2){
+            console.log("Not a Prime Number");
+        }
+        else{
+            console.log("It is a Prime Number");
+        }
+    }
+
+
+    var outputqs1 = primeNumber;
+    console.log(output);   
+    i++;
+
+
+//wrte a funcyion that takes an array and create one
+//single array
+//arr=[1,[2,3],4,[5,6,[7,8],9],10]
+
+const qs2arr=[1,[2,3],4,[5,6,[7,8],9],10]
+
+const qs2var = qs2arr.flat(2);
+console.log(qs2arr); 
+
+
+//write a function that takes an array and give split
+//result
+
+var qs3arr = [1,2,3,4,5,6,7,8,9,0];
+var qs3arr2 = [1,2,3,4,5,6,7,8,9,0];
+var qs3output2 = [1,2,3,4,5];
+var qs3output3 = [6,7,8,9,10]
+
+var qs3outputdesiredarr1 = qs3arr.splice(0,5);
+var qs3outputdesiredarr2 = qs3arr2.splice(5,0);
+
+console.log(qs3outputdesiredarr1);
+console.log(qs3outputdesiredarr2);
 
 
 
