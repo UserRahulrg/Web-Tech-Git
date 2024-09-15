@@ -136,6 +136,12 @@ var qs3outputdesiredarr2 = qs3arr2.splice(5,0);
 console.log(qs3outputdesiredarr1);
 console.log(qs3outputdesiredarr2);
 
+var qs3v1arr = [10,11,12,13,14,15,16,17,18,19,20]
+var arr1ofqs3 = qs3v1arr.slice[1,5];
+console.log("array 1 of qs3 "+qs3v1arr.slice[1,5]);
+prompt("array 1 of qs3 "+arr1ofqs3);
+prompt(qs3v1arr.slice(1,7));
+
 
 
 
