@@ -125,22 +125,22 @@ console.log(qs2arr);
 //write a function that takes an array and give split
 //result
 
-var qs3arr = [1,2,3,4,5,6,7,8,9,0];
-var qs3arr2 = [1,2,3,4,5,6,7,8,9,0];
-var qs3output2 = [1,2,3,4,5];
-var qs3output3 = [6,7,8,9,10]
+// var qs3arr = [1,2,3,4,5,6,7,8,9,0];
+// var qs3arr2 = [1,2,3,4,5,6,7,8,9,0];
+// var qs3output2 = [1,2,3,4,5];
+// var qs3output3 = [6,7,8,9,10]
 
-var qs3outputdesiredarr1 = qs3arr.splice(0,5);
-var qs3outputdesiredarr2 = qs3arr2.splice(5,0);
+// var qs3outputdesiredarr1 = qs3arr.splice(0,5);
+// var qs3outputdesiredarr2 = qs3arr2.splice(5,0);
 
-console.log(qs3outputdesiredarr1);
-console.log(qs3outputdesiredarr2);
+// console.log(qs3outputdesiredarr1);
+// console.log(qs3outputdesiredarr2);
 
-var qs3v1arr = [10,11,12,13,14,15,16,17,18,19,20]
-var arr1ofqs3 = qs3v1arr.slice[1,5];
-console.log("array 1 of qs3 "+qs3v1arr.slice[1,5]);
-prompt("array 1 of qs3 "+arr1ofqs3);
-prompt(qs3v1arr.slice(1,7));
+// var qs3v1arr = [10,11,12,13,14,15,16,17,18,19,20]
+// var arr1ofqs3 = qs3v1arr.slice[1,5];
+// console.log("array 1 of qs3 "+qs3v1arr.slice[1,5]);
+// prompt("array 1 of qs3 "+arr1ofqs3);
+// prompt(qs3v1arr.slice(1,7));
 
 
 
