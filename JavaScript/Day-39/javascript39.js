@@ -142,7 +142,15 @@ console.log(qs2arr);
 // prompt("array 1 of qs3 "+arr1ofqs3);
 // prompt(qs3v1arr.slice(1,7));
 
+const json_obj = {
+    name:"Rahul",
+    id:10,
+    address:"Noida,Uttar Pradesh"
+}
 
+const json_obj_string = JSON.stringyfy(json_obj);
+console.log(json_obj_string);
+prompt(json_obj_string);    
 
 
 
