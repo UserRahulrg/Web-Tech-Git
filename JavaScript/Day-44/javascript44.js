@@ -1,4 +1,4 @@
-alert("Javascript is working properly!")
+4alert("Javascript is working properly!")
 
 let variable1 = document.createElement("li")
 let variable2 = document.createElement("li")
@@ -22,6 +22,25 @@ if(unorlist)
 else{
     prompt("No unordered list element found!")
 }
+
+// const p = document.querySelector("p");
+// p.textContent=p.textContent+"I am Web Developer";
+
+// const p = document.querySelector("p");
+// p.innerHTML="Hello I am <a href=' ' target = 'blank' > Web Developer </a>"
+
+// const div = document.getElementById("example")
+
+// // if(div.)
+
+// const div = document.
+
+
+
+
+
+
+
 
 
 

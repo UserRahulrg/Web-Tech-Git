@@ -153,6 +153,19 @@ console.log(json_obj_string);
 prompt(json_obj_string);    
 
 
+function DarkModeFunct(){
+    document.body.style.cssText="background-color:black; color:white";
+}
+
+function LightModeFunct(){
+    document.body.style.cssText="background-color:white;color:black";
+}
+
+function TwilightModeFunct(){
+    document.body.style.cssText="background-color:gray;color:black"
+}
+
+
 
 
 

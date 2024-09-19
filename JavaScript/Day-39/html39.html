@@ -3,10 +3,25 @@
         <link rel="stylesheet" href="./css39.css">
         <script src="./javascript39.js"></script>
     </head>
-    <body>
+    <script>
+    function DarkModeFunct(){
+        document.body.style.cssText="background-color:black; color:white";
+    }
 
+    function LightModeFunct(){
+        document.body.style.cssText="background-color:white;color:black";
+    }
+
+    function TwilightModeFunct(){
+        document.body.style.cssText="background-color:gray;color:black"
+    }
+    </script>
+    <body>
         <h1>Web-Technology Revision </h1>
         <div class="javascript">
+            <button onclick="DarkModeFunct()">DarkMode</button>
+            <button onClick="LightModeFunct()">LightMode</button>
+            <button onclick="TwilightModeFunct()">TwilightMode</button>
             <h2>JavaScript</h2>
             <div class="notes0">
                 <h3>Token</h3>
@@ -102,5 +117,13 @@
         </div>
     </body>
 </html>
+
+
+
+
+
+
+
+
 
 
