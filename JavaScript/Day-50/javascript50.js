@@ -5,16 +5,16 @@ let tSide = 100;
 window.addEventListener("keydown",(e)=> {
     let move =50;
     switch(e.key){
-        case "ArrowUp":
+        case "w":
             tSide =tSide-move;
             break;
-        case "ArrowDown":
+        case "s":
             tSide =tSide-move;
             break;
-        case "ArrowLeft":
+        case "a":
             tSide =tSide-move;
             break;
-        case "ArrowRight":
+        case "d":
             tSide =tSide-move;
             break;
         default:
