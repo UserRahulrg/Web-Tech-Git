@@ -27,8 +27,17 @@ pasteelem1.addEventListener("paste",(e)=>{
     e.preventDefault();
 })
 
+/*
 
+btn.addEventListener("click",()=>{
+    const p = document.querySelector("p");
+    const content = p.textContent;
+    navigator.clipboard.writeText(content)
+    .then(()=>console.log("Text Copied to Clipboard!!"))
+    .catch((error)=>console.log("Error: "+error))
+})
 
+*/
 
 
 
