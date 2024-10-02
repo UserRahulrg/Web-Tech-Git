@@ -1,0 +1,26 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.codeBlock{
+    background-color: black;
+    width: 90%;
+    height: 75%;
+}
+
+
+button{
+    width: 120px;
+    height: 42px;
+    background-color: rgb(52, 52, 232);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p{
+    color: white;
+}
+
+
+
+
