@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(pink,rgb(74, 74, 233));
+}
+
+.nav{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 650;
+
+}
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+li{
+    margin-left: 5%;
+}
+
+.navinner1{
+    width: 25%;
+    height: fit-content;
+}
+
+.navinner2{
+    width: 75%;
+    height: fit-content;
+}
