@@ -6,12 +6,15 @@ acc.addEventListener("click",()=>{
 })
 
 const actionbtn1 = document.getElementById('p');
-
+const actionbtn2 = document.getElementById('btnclick1')
 
 
 actionbtn1.addEventListener("click",()=>{
-    actionbtn1.style.appearance.hidden;
+    btnclick1.style.appearance.hidden;
 })
+
+
+
 
 
 
