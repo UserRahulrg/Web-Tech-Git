@@ -5,10 +5,13 @@ acc.addEventListener("click",()=>{
     cross.classList.toggle("show")
 })
 
+const actionbtn1 = document.getElementById('p');
 
 
 
-
+actionbtn1.addEventListener("click",()=>{
+    actionbtn1.style.appearance.hidden;
+})
 
 
 
