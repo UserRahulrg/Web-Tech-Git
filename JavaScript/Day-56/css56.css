@@ -6,7 +6,9 @@
 #logo{
     color: red;
     font-size: 38px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color:ligh
 }
 
 #accord1,#accord2,#accord3{
@@ -37,9 +39,33 @@ p{
 
 }
 
+nav{
+    width: 100%;
+    display: flex;
+}
 
+h2{
+    width: 30%;
+}
 
+ul{
+    width: 70%;
+    display: flex;
+    align-content: center;
+}
 
+li{
+    margin-top: 8%;
+    margin-left: 4%;
+    color: white;
+    font-size: 24px;
+    font-family: cambria,georgia;
+    font-weight: 400;
+}
+
+li:hover{
+    background-color: rgb(56, 56, 224);
+}
 
 
 
