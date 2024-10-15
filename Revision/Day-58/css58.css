@@ -1,3 +1,61 @@
 *{
-    padding: 4px 4px 4px 4pxs;
+    padding: 4px 4px 4px 4px;
+
 }
+
+body{
+    background-color: white;
+    color: black;
+}
+
+h2{
+    font-size: 23px;
+}
+
+header{
+
+
+}
+
+nav{
+    display: flex;
+    background-color: inherit;
+}
+
+ul{
+    display: flex;
+}
+
+#cartImg{
+    width: 80px;
+    height: fit-content;
+    border-radius: 72px;
+}
+
+#cartImg:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+
+}
+
+aside{
+    display: none;
+    padding-left: 60%;
+    width: 40%;
+    height: 60%;
+    background-color: transparent;  
+    right: 300px;
+    z-index: 1000; 
+    transition: right 0.5s ease;
+    background-color: transparent;
+}
+
+#asideUl{
+
+}
+
+li{
+    
+    
+}
+
