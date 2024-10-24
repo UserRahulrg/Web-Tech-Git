@@ -68,6 +68,7 @@
     overflow: hidden;
     user-select: none;
   }
+
   #nav-bar hr {
     margin: 0;
     position: relative;
@@ -126,6 +127,7 @@
     border-radius: 99px;
     transition: background 0.2s;
   }
+
   #nav-toggle-burger:before, #nav-toggle-burger:after {
     content: "";
     position: absolute;
@@ -346,6 +348,9 @@
     background-color: #D62929;
   }
 
+
+
+  
 
 
   

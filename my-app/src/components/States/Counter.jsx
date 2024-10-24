@@ -16,8 +16,12 @@ const Counter = () => {
             <button onClick={decre}>decrement</button>
             <button onClick={reset}>reset</button>
             <h2>❤️ <sup>{count}</sup></h2>
-            
+
+                   <div>
+            <h1 style={{backgroundColor:"black",color:"white"}}>Inline Background</h1>
+                    </div>     
         </fragment>
+        
     );
 
 };

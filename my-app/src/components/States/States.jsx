@@ -23,7 +23,7 @@ const States = () =>{
 
         <div>
             <h1>{state}</h1>
-            <button onClick={() => setState("Byee")}>Change</button>
+            <button onClick={() => setState("Hellio React!")}>Change</button>
         </div>
     );
 
