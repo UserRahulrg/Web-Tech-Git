@@ -14,3 +14,6 @@ function DarkModeFunct(){
     bodyElement.style.color="white" 
     
 }
+
+
+

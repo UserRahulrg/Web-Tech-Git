@@ -11,7 +11,7 @@ const Parent = ()=> {
         {id:1,title:"Mobile"},{id:2,title:"Laptop"}
     ];
     return(
-        <div>
+        <div id="parentDiv">
             <h1>I am Parent Component</h1>
             <Global.Provider value={{data,products}}>
                 <childA/>

@@ -11,27 +11,32 @@ import CbcStates from './components/States/CbcStates';
 import Parent from './Topics/context/Parent';
 
 import X from "./Topics/context/X";
-import Header from './react-css/GenMode';
+import Header from './react-css/Header';
 import ContextApi from "./Topics/context/ContextApi";
 import Y from "./Topics/context/Y";
+import Controlled2 from './Topics/controlledForms/controlled2';
+import styles from './global.css';
 
 const App = () => {
   return (
-    <Fragment>
-      <Header/>
-      {/* <NewInlineCssExample/> */}
-      <Parent/>
-      
-      <h1></h1>
-      <States/>
-
-      <Counter/>
-      <CbcStates/>
-      <ContextApi>
-        <X/>
-        <Y/>
-      </ContextApi>
+    <div className="body">
+        <div className='innerdiv'>
+          <Fragment>
+          <Header/>
+          {/* <NewInlineCssExample/> */}
+          <Parent/>
+          <Controlled2/>
+          <States/>
+          <Counter/>
+          <CbcStates/>
+          <ContextApi>
+            <X/>
+            <Y/>
+          </ContextApi>
     </Fragment>
+    </div>
+  </div>
+    
 
     
     

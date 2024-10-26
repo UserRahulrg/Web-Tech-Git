@@ -12,16 +12,16 @@ const States = () =>{
     // }
 
     return (
-        // <Fragment>
-        //     <h1>States Example</h1>
-        //     <h1>{States}</h1>  
-        //     <button onClick={handleChange}>
-        //         change
-        //     </button>
-            
-        // </Fragment>
+    <div id='statesDiv'>
+        {/* <Fragment>
+            <h1>States Example</h1>
+            <h1>{States}</h1>  
+            <button onClick={handleChange}>
+                change
+            </button>        
+        </Fragment> */}
 
-        <div>
+
             <h1>{state}</h1>
             <button onClick={() => setState("Hellio React!")}>Change</button>
         </div>

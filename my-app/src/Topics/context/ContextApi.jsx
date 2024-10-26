@@ -7,7 +7,9 @@ const ContextApi = (props) =>{
     console.log(props);
 
     return(
-        <GlobalData.Provider value = {data}>{props.children}</GlobalData.Provider>
+        <div id="contextApiDiv">
+                    <GlobalData.Provider value = {data}>{props.children}</GlobalData.Provider>
+        </div>
     );
 
 };

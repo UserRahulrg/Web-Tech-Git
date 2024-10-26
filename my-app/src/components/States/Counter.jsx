@@ -10,6 +10,7 @@ const Counter = () => {
     let reset = () => {setCount(0)};
 
     return (
+        <div id="counterDiv">
         <fragment>
             <h1>Counter = {count}</h1>
             <button onClick={incre}>increment</button>
@@ -18,9 +19,10 @@ const Counter = () => {
             <h2>❤️ <sup>{count}</sup></h2>
 
                    <div>
-            <h1 style={{backgroundColor:"black",color:"white"}}>Inline Background</h1>
+            <h1 style={{backgroundColor:"white",color:"black"}}>Inline Background</h1>
                     </div>     
         </fragment>
+        </div>
         
     );
 

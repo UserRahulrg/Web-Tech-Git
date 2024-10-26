@@ -13,11 +13,13 @@ class CbcStates extends Component{
         console.log(this);
 
         return(
+            <div id="cbcStatesDiv">
             <Fragment>
                 <h1>CBC States {this.state.count}</h1>
                 <button onClick={() => this.setState({count: this.state.count+1})}>increment</button>
             
             </Fragment>
+            </div>
         );
     }
 }
