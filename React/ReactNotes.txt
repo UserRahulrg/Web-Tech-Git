@@ -1,0 +1,4 @@
+Vite Command
+
+npm run dev = to run the browser
+

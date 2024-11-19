@@ -1,0 +1,28 @@
+*{
+    background-color: whitesmoke;    
+}
+
+nav{
+    display: flex;
+    border: 1px solid black;
+}
+
+ul{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-content: space-between;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
+li{
+    padding: 10px;
+}
+
+li:hover{
+    background-color: lightseagreen;
+
+}
