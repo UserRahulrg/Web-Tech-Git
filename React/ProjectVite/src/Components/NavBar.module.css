@@ -1,10 +1,18 @@
 *{
-    background-color: whitesmoke;    
+    background-color: whitesmoke;
+    padding: 4px 4px 4px 4px;    
 }
 
 nav{
+    width: 100%;
+    height: 100%;
     display: flex;
-    border: 1px solid black;
+    border: 1px solid lightcoral;
+    background-color: black;
+}
+
+form{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 ul{
@@ -15,14 +23,34 @@ ul{
     font-style: normal;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    background-color: black;
+    color: white;
 
 }
 
 li{
     padding: 10px;
+    background-color: black;
+    color: white;
 }
 
 li:hover{
     background-color: lightseagreen;
 
+}
+
+aside{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    background-color: black;
+    color: white;
+}
+
+h3{
+    width: 30%;
+    height: 100%;
+    color: white;
+    background-color: black;
 }
