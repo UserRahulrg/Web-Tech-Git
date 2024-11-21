@@ -1,5 +1,5 @@
 *{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke;  */
     padding: 4px 4px 4px 4px;    
 }
 
@@ -13,6 +13,7 @@ nav{
 
 form{
     font-family: 'Courier New', Courier, monospace;
+    
 }
 
 ul{
@@ -48,9 +49,11 @@ aside{
     color: white;
 }
 
-h3{
+/* h3{
     width: 30%;
     height: 100%;
     color: white;
     background-color: black;
-}
+} */
+
+
