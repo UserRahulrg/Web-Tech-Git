@@ -25,7 +25,7 @@ const Register = () => {
         e.preventDefault()
         console.log(registerUser)
         axios
-            .post("http://localhost:5000/users", registerUser)
+            .post("http://localhost:3000/users", registerUser)
             .then(() => {
                 toast.success("Registered Successfully!!")
                 //alert("registered successfully")
@@ -35,8 +35,8 @@ const Register = () => {
                 navigate("/about");
                 //alert("Not registered")
             })
+        }
 
-    }
 
     return (
         <div>
@@ -54,8 +54,15 @@ const Register = () => {
                 <button type="submit" >Submit</button>
             </form>
 
+            <iframe href="https://www.youtube.com/watch?v=Fb1Z3WdZD1Y" width="640" height="420" >
+
+            </iframe>
+
         </div>
     )
 }
 
 export default Register;
+
+
+
