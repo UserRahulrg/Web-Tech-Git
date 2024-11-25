@@ -25,7 +25,7 @@ const increment = (id) => {
         if(search === undefined) {
             id: cardItem.id,
             quantity:1
-    }
+        }
     else {
         console.log("hello")
     })
@@ -46,5 +46,14 @@ const update = (id)=>{
     const product = basket.find(val=>val.id==id)
     document.getElementById(id).get
 }
+
+
+
+
+
+
+
+
+
 
 
