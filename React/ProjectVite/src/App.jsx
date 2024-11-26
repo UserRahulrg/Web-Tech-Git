@@ -8,6 +8,8 @@ import About from "./Pages/About";
 import {Toaster} from 'react-hot-toast';
 import Login from "./Pages/Login";
 import Profile from "./Pages/profile";
+ import PrivateRoute from "./Components/PrivateRoute";
+ 
 
 const App = () => {
 
@@ -21,10 +23,9 @@ const App = () => {
                     <Route path="/Register" element={<Register/>}></Route>
                     <Route path="/About" element={<About/>}></Route>
                     <Route path="/login" element={<Login/>}></Route>
-                    <Route path="/profile" element={<Profile/>}></Route>
+                    <Route path="/profile" element={<PrivateRoute><Profile/></PrivateRoute>}></Route>
                 </Routes>
             </BrowserRouter>
-        
     </div>
     )
 }

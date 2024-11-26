@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { Navigate } from "react-router-dom";
 
 const Login = () => {
 
@@ -37,11 +38,21 @@ const Login = () => {
         })
         console.log(loginUser)
 
+        // if(authUser){
+        //     toast.success(`Welcome` ${authUser.username})
+        //     localStorage.setItem("userId",authUser.id);
+        //     Navigate("/Profile")
+
+        // }
+
         if (authUser) {
-            toast.success("Welcome")
+            toast.success(`Welcome ${authUser.username}`)
+            localStorage.setItem("userID",authUser.id)
+            Navigate("/Profile")
         }
         else {
-            toast.error("Lol......error")
+            toast.error("E.r.r.o.r............error")
+            Navigate("/Register")
         }
     }
 
