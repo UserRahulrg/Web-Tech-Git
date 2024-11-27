@@ -10,6 +10,7 @@ import Login from "./Pages/Login";
 import Profile from "./Pages/Profile";
  import PrivateRoute from "./Components/PrivateRoute";
  import Logout from "./Pages/Logout";
+import UpdateProfile from "./Pages/UpdateProfile";
  
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
                     <Route path="/Login" element={<Login/>}></Route>
                     <Route path="/Profile" element={<PrivateRoute><Profile/></PrivateRoute>}></Route>
                     <Route path="/Logout" element={<Logout/>}></Route>
+                    <Route path="/UpdateProfile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>}></Route>
                 </Routes>
             </BrowserRouter>
     </div>
