@@ -13,7 +13,32 @@ nav{
 
 form{
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 1px solid black;
+    background-color: lightcyan;
+    width: 100%;
+    height: 100%;
     
+}
+
+
+
+form input{
+    width: 240px;
+    border-radius: 8px;
+    height: 26px;
+    
+
+
+}
+form label{
+    width: 25%;
+    height: fit-content;
+}
+
+form button{
+    width: 320px;
+    height: fit-content;
+
 }
 
 ul{
@@ -31,12 +56,15 @@ ul{
 
 li{
     padding: 10px;
-    background-color: black;
+    background-color: inherit;
     color: white;
+    background-color: black;
+
 }
 
 li:hover{
-    background-color: lightseagreen;
+    background-color: black;
+    color: white;
 
 }
 
@@ -56,4 +84,6 @@ aside{
     background-color: black;
 } */
 
-
+#home{
+    background-color: lightcyan;
+}

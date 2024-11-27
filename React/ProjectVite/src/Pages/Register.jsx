@@ -45,18 +45,19 @@ const Register = () => {
 
                 <label htmlFor="" >Name</label>
                 <input type="text" placeholder="Enter Name" name="username" value={registerUser.username} onChange={RegisterHandle} /><br></br>
-                <label htmlFor="" >Email</label>
+                <br></br><label htmlFor="" >Email</label>
                 <input type="text" placeholder="Enter Email" name="useremail" value={registerUser.useremail} onChange={RegisterHandle} /><br></br>
-                <label htmlFor="" >Password</label>
+               <br></br> <label htmlFor="" >Password</label>
                 <input type="password" name="userpassword" value={registerUser.userpassword} onChange={RegisterHandle} /><br></br>
-                <label>PhoneNo</label>
+                <br></br><label>PhoneNo</label>
                 <input type="number" name="userphoneno" value={registerUser.userphoneno} onChange={RegisterHandle} /><br />
-                <button type="submit" >Submit</button>
+               <br></br> <button type="submit" >Register</button>
+               <br/><br/><li src="">Forget Password</li>
             </form>
 
-            <iframe href="https://www.youtube.com/watch?v=Fb1Z3WdZD1Y" width="640" height="420" >
+            {/* <iframe href="https://www.youtube.com/watch?v=Fb1Z3WdZD1Y" width="640" height="420" > */}
 
-            </iframe>
+            {/* </iframe> */}
 
         </div>
     )

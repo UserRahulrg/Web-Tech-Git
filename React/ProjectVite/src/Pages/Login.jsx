@@ -61,11 +61,11 @@ const Login = () => {
         <div>
             <h1>Login Page</h1>
             <form onSubmit={loginSubmit} >
-                <label htmlFor=""></label>
+                <label htmlFor="">UserId/Email:</label>
                 <input type="text" name="username" value={loginUser.username} onChange={loginHandle} />
-                <label htmlFor=""></label>
-                <input type="text" name="password" value={loginUser.password} onChange={loginHandle} />
-                <button type="submit">Login</button>
+                <br /><br /><label htmlFor="">Password:</label>
+                <input type="password" name="password" value={loginUser.password} onChange={loginHandle} />
+                <br /><br /><button type="submit">Login</button>
             </form>
         </div>
 

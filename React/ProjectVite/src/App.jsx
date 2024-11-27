@@ -7,8 +7,9 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import About from "./Pages/About";
 import {Toaster} from 'react-hot-toast';
 import Login from "./Pages/Login";
-import Profile from "./Pages/profile";
+import Profile from "./Pages/Profile";
  import PrivateRoute from "./Components/PrivateRoute";
+ import Logout from "./Pages/Logout";
  
 
 const App = () => {
@@ -22,8 +23,9 @@ const App = () => {
                     <Route path="/" element={<Home/>}/>
                     <Route path="/Register" element={<Register/>}></Route>
                     <Route path="/About" element={<About/>}></Route>
-                    <Route path="/login" element={<Login/>}></Route>
-                    <Route path="/profile" element={<PrivateRoute><Profile/></PrivateRoute>}></Route>
+                    <Route path="/Login" element={<Login/>}></Route>
+                    <Route path="/Profile" element={<PrivateRoute><Profile/></PrivateRoute>}></Route>
+                    <Route path="/Logout" element={<Logout/>}></Route>
                 </Routes>
             </BrowserRouter>
     </div>
