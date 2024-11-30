@@ -45,7 +45,14 @@ const Login = () => {
 
         // }
 
-        if (authUser) {
+        if( authUser.username === "admin@gmail.com" && authUser.password === "admin123"){
+
+            toast.success("Welcome")
+            localStorage.setItem("userId",authUser.id)
+            Navigate("/admin")
+            
+        }
+        else if (authUser) {
             toast.success(`Welcome ${authUser.username}`)
             localStorage.setItem("userID",authUser.id)
             Navigate("/Profile")
@@ -66,6 +73,7 @@ const Login = () => {
                 <br /><br /><label htmlFor="">Password:</label>
                 <input type="password" name="password" value={loginUser.password} onChange={loginHandle} />
                 <br /><br /><button type="submit">Login</button>
+
             </form>
         </div>
 

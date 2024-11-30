@@ -11,7 +11,8 @@ import Profile from "./Pages/Profile";
  import PrivateRoute from "./Components/PrivateRoute";
  import Logout from "./Pages/Logout";
 import UpdateProfile from "./Pages/UpdateProfile";
- 
+import Admin from "./Pages/Admin"; 
+import AdminUpdate from "./Pages/AdminUpdate";
 
 const App = () => {
 
@@ -28,6 +29,9 @@ const App = () => {
                     <Route path="/Profile" element={<PrivateRoute><Profile/></PrivateRoute>}></Route>
                     <Route path="/Logout" element={<Logout/>}></Route>
                     <Route path="/UpdateProfile" element={<PrivateRoute><UpdateProfile/></PrivateRoute>}></Route>
+                    <Route path="/Admin" element={<PrivateRoute><Admin/></PrivateRoute>}></Route>
+                    <Route path="/adminupdate/:id" element={<PrivateRoute><Admin/></PrivateRoute>}></Route>
+                    <Route path="/AdminUpdate" element={<PrivateRoute><AdminUpdate/></PrivateRoute>}></Route>
                 </Routes>
             </BrowserRouter>
     </div>
