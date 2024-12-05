@@ -1,5 +1,5 @@
 import React from "react";
-
+import { myRoutes } from "./Router";
 import {  RouterProvider } from "react-router-dom";
 
 
