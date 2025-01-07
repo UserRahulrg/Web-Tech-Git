@@ -1,11 +1,23 @@
 import React from "react";
+import Fbc from "./typesofcomponent/Fbc/Fbc";
+import Cbc from "./typesofcomponent/Fbc/Cbc/Cbc";
+import StatesInFbc from "./states/StatessinFbc";
+import CounterInFbc from "./typesofcomponent/CounterInFbc";
+import CartBtn from "./states/CartBtn";
 
 const App = ()=>{
 
   return(
+    <div>
     <h1>
       App File
     </h1>
+    {/* <Fbc/>
+    <Cbc/> */}
+    {/* <StatesInFbc/> */}
+    {/* <CounterInFbc/> */}
+    <CartBtn/>
+    </div>
   )
 
 }
