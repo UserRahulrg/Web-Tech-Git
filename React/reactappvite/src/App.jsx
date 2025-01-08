@@ -4,19 +4,21 @@ import Cbc from "./typesofcomponent/Fbc/Cbc/Cbc";
 import StatesInFbc from "./states/StatessinFbc";
 import CounterInFbc from "./typesofcomponent/CounterInFbc";
 import CartBtn from "./states/CartBtn";
+import PropsParent from "./props/PropsParent";
 
-const App = ()=>{
+const App = () => {
 
-  return(
+  return (
     <div>
-    <h1>
-      App File
-    </h1>
-    {/* <Fbc/>
+      <h1>
+        App File
+      </h1>
+      {/* <Fbc/>
     <Cbc/> */}
-    {/* <StatesInFbc/> */}
-    {/* <CounterInFbc/> */}
-    <CartBtn/>
+      {/* <StatesInFbc/> */}
+      {/* <CounterInFbc/> */}
+      <CartBtn />
+      <PropsParent />
     </div>
   )
 

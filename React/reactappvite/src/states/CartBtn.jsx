@@ -1,7 +1,11 @@
-const CartBtn = ()=>{
+import { useState } from "react";
 
+const CartBtn = ()=>{
+    let [btnText,setBtnText] = useState("add to Cart");
+    let updateBtn = ()=> setBtnText("Go To Cart")
     return (
-        <button>CartBtn</button>
+        <button onClick={updateBtn}>{btnText}</button>
+        
 
     )
 }
