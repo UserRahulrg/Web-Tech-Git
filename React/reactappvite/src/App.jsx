@@ -5,6 +5,8 @@ import StatesInFbc from "./states/StatessinFbc";
 import CounterInFbc from "./typesofcomponent/CounterInFbc";
 import CartBtn from "./states/CartBtn";
 import PropsParent from "./props/PropsParent";
+import PropsDemoPage from "./props/PropsDemoPage";
+import Database from "./propsDrilling/propsDrillingChild1.jsx/Database";
 
 const App = () => {
 
@@ -19,6 +21,8 @@ const App = () => {
       {/* <CounterInFbc/> */}
       <CartBtn />
       <PropsParent />
+      <PropsDemoPage/>
+      <Database/>
     </div>
   )
 

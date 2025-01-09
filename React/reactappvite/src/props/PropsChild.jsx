@@ -1,41 +1,4 @@
-
-// const PropsChild =()=>{
-
-//     return(
-//         <div>
-//             <h1>Child Tag</h1>
-//         </div>
-//     )
-// }
-
-// export default PropsChild;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//import PropsDemoPage from "./PropsDemoPage";
 
 const PropsChild = (value) => {
 
@@ -43,8 +6,18 @@ const PropsChild = (value) => {
     console.log(value.data)
 
     return (
-        <h1>propsChild {value.data}</h1>
+        <div>
+            <h2>propsChild {value.data}</h2>
+            <form >
+                <label htmlFor="">Username</label>
+                <input type="text"></input><br /><br />
+                <label htmlFor="">Password</label>
+                <input type="text" /><br /><br />
+                <button type="">Submit</button>
+            </form>
 
+        </div>
+        
 
     )
 }
