@@ -17,6 +17,7 @@ const MyntraNav = ()=>{
                     <li type="none"><a href="">HOME & LIVING</a></li>
                     <li type="none"><a href="">BEAUTY</a></li>
                     <li type="none"><a href="">STUDIO</a></li>
+                    <li ><a href=""></a></li>
                 </ul>
             </nav>
             
