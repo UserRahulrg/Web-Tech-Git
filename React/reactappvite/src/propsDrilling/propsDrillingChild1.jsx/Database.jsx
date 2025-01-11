@@ -180,7 +180,7 @@ const Database = ()=>{
     
     return(
         <div>
-            <DBChild1 props={user} />
+            <DBChild1 user={user} />
         </div>
     )
 }

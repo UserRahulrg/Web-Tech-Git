@@ -7,11 +7,14 @@ import CartBtn from "./states/CartBtn";
 import PropsParent from "./props/PropsParent";
 import PropsDemoPage from "./props/PropsDemoPage";
 import Database from "./propsDrilling/propsDrillingChild1.jsx/Database";
+import Inline from "./reactCss/Inline";
+import MyntraNav from "./reactCss/MyntraNav";
 
 const App = () => {
 
   return (
     <div>
+      <MyntraNav/>
       <h1>
         App File
       </h1>
@@ -22,7 +25,9 @@ const App = () => {
       <CartBtn />
       <PropsParent />
       <PropsDemoPage/>
-      <Database/>
+      {/* <Database/> */}
+      <Inline/>
+      
     </div>
   )
 
