@@ -1,14 +1,16 @@
 import React from "react";
-import Fbc from "./typesofcomponent/Fbc/Fbc";
-import Cbc from "./typesofcomponent/Fbc/Cbc/Cbc";
-import StatesInFbc from "./states/StatessinFbc";
-import CounterInFbc from "./typesofcomponent/CounterInFbc";
-import CartBtn from "./states/CartBtn";
-import PropsParent from "./props/PropsParent";
-import PropsDemoPage from "./props/PropsDemoPage";
-import Database from "./propsDrilling/propsDrillingChild1.jsx/Database";
+//import Fbc from "./typesofcomponent/Fbc/Fbc";
+//import Cbc from "./typesofcomponent/Fbc/Cbc/Cbc";
+//import StatesInFbc from "./states/StatessinFbc";
+//import CounterInFbc from "./typesofcomponent/CounterInFbc";
+//import CartBtn from "./states/CartBtn";
+//import PropsParent from "./props/PropsParent";
+//import PropsDemoPage from "./props/PropsDemoPage";
+//import Database from "./propsDrilling/propsDrillingChild1.jsx/Database";
 import Inline from "./reactCss/Inline";
 import MyntraNav from "./reactCss/MyntraNav";
+import ControlledForm from "./controlledForms/ControlledForm1";
+import ControlledForm2 from "./controlledForms/ControlledForm2";
 
 const App = () => {
 
@@ -22,12 +24,13 @@ const App = () => {
     <Cbc/> */}
       {/* <StatesInFbc/> */}
       {/* <CounterInFbc/> */}
-      <CartBtn />
-      <PropsParent />
-      <PropsDemoPage/>
+      {/* <CartBtn /> */}
+      {/* <PropsParent /> */}
+      {/* <PropsDemoPage/> */}
       {/* <Database/> */}
       <Inline/>
-      
+      <ControlledForm/>
+      <ControlledForm2/>
     </div>
   )
 
