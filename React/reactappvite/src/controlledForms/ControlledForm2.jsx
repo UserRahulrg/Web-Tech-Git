@@ -3,8 +3,8 @@ import { useState } from "react";
 const ControlledForm2 =()=>{
 
     let [formData,setFormData]= useState({
-        email:"",
-        password:""
+        email:"qwerty@gmail.com",
+        password:"123456"
     })
 
     function handleChange(e){
@@ -20,12 +20,18 @@ const ControlledForm2 =()=>{
     return(
         <div>
             <h2>ControlledForms-II!!</h2>
+            <form onSubmit={formSubmit}>
+            
             <label>Email</label>
-            <input type="text" value={email} onChange={handleChange}></input><br /><br />
+            <input type="text" value={formData.email} onChange={handleChange}></input><br /><br />
             <label>Password</label>
-            <input type="password" value={password} onChange={handleChange}></input><br /><br />
-            <button >Submit</button>
+            <input type="password" value={formData.password} onChange={handleChange}></input><br /><br />
+            <button type="submit">Submit</button>
+            </form>
         </div>
     )
 }
 export default ControlledForm2;
+
+
+

@@ -9,7 +9,7 @@ import React from "react";
 //import Database from "./propsDrilling/propsDrillingChild1.jsx/Database";
 import Inline from "./reactCss/Inline";
 import MyntraNav from "./reactCss/MyntraNav";
-import ControlledForm from "./controlledForms/ControlledForm1";
+//import ControlledForm from "./controlledForms/ControlledForm1";
 import ControlledForm2 from "./controlledForms/ControlledForm2";
 
 const App = () => {
@@ -29,7 +29,7 @@ const App = () => {
       {/* <PropsDemoPage/> */}
       {/* <Database/> */}
       <Inline/>
-      <ControlledForm/>
+      {/* <ControlledForm/> */}
       <ControlledForm2/>
     </div>
   )
