@@ -11,6 +11,9 @@ import Inline from "./reactCss/Inline";
 import MyntraNav from "./reactCss/MyntraNav";
 //import ControlledForm from "./controlledForms/ControlledForm1";
 import ControlledForm2 from "./controlledForms/ControlledForm2";
+//import CreateTodo from "./todoapp/CreateTodo";
+import TodoWrapper from "./todoapp/TodoWrapper";
+//import DisplayTodo from "./todoapp/DisplayTodo";
 
 const App = () => {
 
@@ -31,6 +34,7 @@ const App = () => {
       <Inline/>
       {/* <ControlledForm/> */}
       <ControlledForm2/>
+      {/* <TodoWrapper/> */}
     </div>
   )
 
