@@ -13,6 +13,8 @@ import MyntraNav from "./reactCss/MyntraNav";
 import ControlledForm2 from "./controlledForms/ControlledForm2";
 //import CreateTodo from "./todoapp/CreateTodo";
 import TodoWrapper from "./todoapp/TodoWrapper";
+import UncontrolledForms from "./uncontrolledForms/UncontrolledForms";
+import Fetch from "./fetchApi/Fetch";
 //import DisplayTodo from "./todoapp/DisplayTodo";
 
 const App = () => {
@@ -35,6 +37,8 @@ const App = () => {
       {/* <ControlledForm/> */}
       <ControlledForm2/>
       {/* <TodoWrapper/> */}
+      <UncontrolledForms/>
+      <Fetch/>
     </div>
   )
 

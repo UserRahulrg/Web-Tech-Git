@@ -1,0 +1,28 @@
+*{
+
+}
+
+#divMain{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.sectionMainDiv{
+    
+}
+
+#sectionMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightcyan;
+
+}
+
+.userData{
+    display: flex;
+    flex-direction: column;
+}
