@@ -5,7 +5,7 @@ const Fetch = ()=>{
 
 let [allUsers,setAllUsers] =useState([]);
 
-    async   function getAllUsers() {
+    async function getAllUsers() {
 
         console.log("");
         let resp = await fetch("https://api.github.com/users")
