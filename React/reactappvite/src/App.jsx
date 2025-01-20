@@ -15,9 +15,15 @@ import ControlledForm2 from "./controlledForms/ControlledForm2";
 import TodoWrapper from "./todoapp/TodoWrapper";
 import UncontrolledForms from "./uncontrolledForms/UncontrolledForms";
 import Fetch from "./fetchApi/Fetch";
+import LifeCycleInCbc from "./lifecycle/LifeCycleInCbc";
 //import DisplayTodo from "./todoapp/DisplayTodo";
+import { useState } from "react";
+import SideEffects from "./sideeffects/SideEffects";
+
 
 const App = () => {
+
+  let [toggle, setToggle] = useState(false)
 
   return (
     <div>
@@ -39,6 +45,12 @@ const App = () => {
       {/* <TodoWrapper/> */}
       <UncontrolledForms/>
       <Fetch/>
+      
+      <button onClick={()=> setToggle(!toggle)}>Click</button>
+      {toggle ? <LifeCycleInCbc/> : "No Component"}
+
+      <SideEffects/>
+      
     </div>
   )
 
