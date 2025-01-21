@@ -19,6 +19,7 @@ import LifeCycleInCbc from "./lifecycle/LifeCycleInCbc";
 //import DisplayTodo from "./todoapp/DisplayTodo";
 import { useState } from "react";
 import SideEffects from "./sideeffects/SideEffects";
+import Parent from "./context/Parent";
 
 
 const App = () => {
@@ -49,8 +50,8 @@ const App = () => {
       <button onClick={()=> setToggle(!toggle)}>Click</button>
       {toggle ? <LifeCycleInCbc/> : "No Component"}
 
-      <SideEffects/>
-      
+      {/* <SideEffects/> */}
+      <Parent/>
     </div>
   )
 
