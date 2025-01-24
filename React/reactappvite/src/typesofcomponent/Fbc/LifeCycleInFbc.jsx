@@ -19,7 +19,6 @@ const LifeCycleInfbc = ()=>{
         }
     },[]);
 
-
     return(
         <div>
             <h2>

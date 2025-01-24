@@ -20,6 +20,8 @@ import LifeCycleInCbc from "./lifecycle/LifeCycleInCbc";
 import { useState } from "react";
 import SideEffects from "./sideeffects/SideEffects";
 import Parent from "./context/Parent";
+import Reducer from "./reducer/Reducer";
+import Memo from "./memoAndCallback/Memo";
 
 
 const App = () => {
@@ -52,6 +54,8 @@ const App = () => {
 
       {/* <SideEffects/> */}
       <Parent/>
+      <Reducer/>
+      <Memo/>
     </div>
   )
 

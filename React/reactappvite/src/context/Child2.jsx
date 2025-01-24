@@ -1,5 +1,10 @@
-const Child2 = ()=>{
+import Hoc from "../hoc/Hoc";
 
+
+const Child2 = (x)=>{
+
+    console.log(x)
+    
     return(
         <div>
             <h2>Child2</h2>
@@ -7,4 +12,4 @@ const Child2 = ()=>{
     )
 }
 
-export default Child2;
+export default Hoc(Child2);

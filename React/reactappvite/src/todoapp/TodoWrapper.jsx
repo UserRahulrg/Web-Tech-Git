@@ -16,6 +16,7 @@ const TodoWrapper = () => {
       text={text}
       setText={setText}
       />
+      
     </div>
   );
 };

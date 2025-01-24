@@ -31,7 +31,7 @@ const Context = ()=>{
     <div>
         <Child1/>
         <Child2/>
-        <MyContext.Provider value={StringValue}>
+        <MyContext.Provider value={StringValue}> 
             <Child3/>
         </MyContext.Provider>
     </div>
