@@ -52,7 +52,7 @@ const App = () => {
       <button onClick={()=> setToggle(!toggle)}>Click</button>
       {toggle ? <LifeCycleInCbc/> : "No Component"}
 
-      {/* <SideEffects/> */}
+      {/* <SideEffects/> */} 
       <Parent/>
       <Reducer/>
       <Memo/>
