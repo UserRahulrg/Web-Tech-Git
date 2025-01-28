@@ -34,7 +34,7 @@ const UncontrolledForms = ()=>{
                 <label>Email</label>
                 <input ref={emailRef}></input><br /><br />
                 <label >Password</label>
-                <input ref={passwordRef}></input><br /><br />
+                <input ref={passwordRef} type="password"></input><br /><br />
                 <button type="submit">Submit</button>
             </form>
         </div>

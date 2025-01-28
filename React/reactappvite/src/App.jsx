@@ -12,13 +12,13 @@ import MyntraNav from "./reactCss/MyntraNav";
 //import ControlledForm from "./controlledForms/ControlledForm1";
 import ControlledForm2 from "./controlledForms/ControlledForm2";
 //import CreateTodo from "./todoapp/CreateTodo";
-import TodoWrapper from "./todoapp/TodoWrapper";
+//import TodoWrapper from "./todoapp/TodoWrapper";
 import UncontrolledForms from "./uncontrolledForms/UncontrolledForms";
 import Fetch from "./fetchApi/Fetch";
 import LifeCycleInCbc from "./lifecycle/LifeCycleInCbc";
 //import DisplayTodo from "./todoapp/DisplayTodo";
 import { useState } from "react";
-import SideEffects from "./sideeffects/SideEffects";
+//import SideEffects from "./sideeffects/SideEffects";
 import Parent from "./context/Parent";
 import Reducer from "./reducer/Reducer";
 import Memo from "./memoAndCallback/Memo";
@@ -62,6 +62,7 @@ const App = () => {
 }
 
 export default App;
+
 /*
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
