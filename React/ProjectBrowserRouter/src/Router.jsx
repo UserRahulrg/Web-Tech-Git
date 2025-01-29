@@ -28,6 +28,9 @@ export let myRoutes = createBrowserRouter([
         ,{
             path:"/signup",
             element:<SignUp></SignUp>
+        },{
+            path:"*",
+            element:"Not Found"
         }
     ]
 }

@@ -9,7 +9,6 @@ const App = ()=>{
 
     return(
         <div>
-            <h2>App File BrowserRouter</h2>
             
             <BrowserRouter>
                 

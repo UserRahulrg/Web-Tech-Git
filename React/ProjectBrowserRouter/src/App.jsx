@@ -7,7 +7,7 @@ const App = ()=>{
 
     
     return(
-         <RouterProvider router={myRoutes}></RouterProvider>
+        <RouterProvider router={myRoutes}></RouterProvider>
     )
 }
 
