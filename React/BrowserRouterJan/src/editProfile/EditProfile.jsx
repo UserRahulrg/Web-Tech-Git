@@ -7,6 +7,7 @@ const EditProfile =()=>{
     return(
         <div>
             <h2>EditProfile!!</h2>
+            <h2>EditProfile!!</h2>
         </div>
     )
 }
