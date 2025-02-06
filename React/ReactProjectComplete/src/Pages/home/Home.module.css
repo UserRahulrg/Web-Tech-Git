@@ -1,0 +1,148 @@
+.homePage {
+  width: 100%;
+  height: calc(100vh - 70px);
+  display: flex;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  overflow: hidden;
+}
+
+.homePage aside {
+  height: 100%;
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.homePage .left {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 0 20px 20px 0;
+}
+
+.homePage .right {
+  background-image: url(/public/images/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 0 0 20px;
+}
+
+.homePage h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.homePage h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #666;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .homePage h1 {
+    font-size: 3.5rem;
+  }
+
+  .homePage h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .homePage {
+    flex-direction: column;
+    height: calc(100vh - 70px);
+  }
+
+  .homePage aside {
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+    border-radius: 0;
+  }
+
+  .homePage .left {
+    border-radius: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .homePage .right {
+    border-radius: 0;
+    height: 100%;
+    background-size: contain;
+  }
+
+  .btnContainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .homePage h1 {
+    font-size: 3rem;
+  }
+
+  .homePage h3 {
+    font-size: 1.2rem;
+  }
+
+  .homePage aside {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .homePage h1 {
+    font-size: 2.5rem;
+  }
+
+  .homePage h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,31 @@
+
+#divNavBar{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+#ulNavBar{
+    display: flex;
+    width: 67%;
+    height: fit-content;
+    font-family:    serif;
+    font-size: 21px;
+}
+
+#ulNavBarCart{
+
+    width: 30%;
+    height: fit-content;
+    font-size: 21px;
+}
+
+li{
+    padding-left: 4%;
+}
+
+li:hover{
+    
+    font-size: 24px;
+    cursor: pointer;
+}
