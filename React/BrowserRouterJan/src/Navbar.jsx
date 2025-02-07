@@ -2,6 +2,7 @@ import axios from "axios";
 import styles from "./src.module.css"
 import { NavLink, useParams } from "react-router-dom";
 import { useEffect } from "react";
+// import script from "./srcJavascript.js"
 
 const Navbar =()=>{
 /*
@@ -9,7 +10,23 @@ const Navbar =()=>{
 
         return null;
     }
-*/
+
+
+    
+    */
+    function varDropdownFunct(){
+        let varDropdown  = document.getElementById("dropdownDiv");
+        varDropdown.setAttribute('display','list-item');
+    }
+    
+   
+    /*
+    let varDropdownFunct = (e)=>{
+        let varDropdown  = document.getElementById("dropdownDiv");
+        varDropdown.setAttribute('display','list-item');
+
+    }
+        */
 
     let {id} = useParams();
     console.log(id)
@@ -60,8 +77,8 @@ const Navbar =()=>{
             <li type="none"><a href="/allProducts">AllProducts</a></li>
         </ul>
         <ul id={styles.ulNavBarCart}>
-            <li><a href="/profile">Profile</a></li>
-            <div className="dropdown">
+            <li type="none" onClick={varDropdownFunct}><a href="/profile" >Profile</a></li>
+            <div className="dropdownDiv" id={styles.dropdownDiv}>
                 <li type="none"><a href="/cart" >Cart</a></li>
                 {/* <li type="none"><a href="/editProfile">Edit Profile</a></li> */}
                 {/* <li><a href="/deleteProfile">Delete Profile</a></li> */}

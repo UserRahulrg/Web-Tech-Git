@@ -21,11 +21,17 @@
 }
 
 li{
-    padding-left: 4%;
+    padding-left: 1%;
 }
 
 li:hover{
     
     font-size: 24px;
     cursor: pointer;
+}
+
+#dropdownDiv{
+
+    display: none;
+    
 }
