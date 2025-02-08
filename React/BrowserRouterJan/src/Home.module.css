@@ -1,0 +1,39 @@
+
+
+#mainDiv{
+    width: 100%;
+    height: 100%;
+    /* min-height: fit-content;
+    min-width: fit-content; */
+    /* max-width: max-content;
+    max-height: max-content; */
+    background-color: black;
+    color: white;
+}
+
+#centerDivId{
+    padding-top: 40%;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-bottom: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 21px;
+
+}
+
+#centerDivButton{
+    width: 142px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#centerDivButton:hover{
+    width: 170px;
+    height: 60px;
+    cursor: pointer;
+
+}
