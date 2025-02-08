@@ -50,7 +50,7 @@ const Navbar =()=>{
 
             try {
                 
-                await axios.delete('https://localhost:5050/users/${user_id') ;
+                await axios.delete('https://localhost:3000/users/${user_id') ;
                 alert("profile deleted")
                 logout()
 
@@ -69,14 +69,12 @@ const Navbar =()=>{
     return(<div id={styles.divNavBar}>
         <ul id={styles.ulNavBar}>
             <li type="none"><a href="/">Home</a></li>
-            <li type="none"><a href="/services">Services</a></li>
+            {/* <li type="none"><a href="/services">Services</a></li> */}
             <li type="none"><a href="/contacts">Contacts</a></li>
-            <li type="none"><a href="/signup">SignUp</a></li>
+            <li type="none"><a href="/signUp">SignUp</a></li>
             <li type="none"><a href="/login">LogIn</a></li>
-            <li type="none"><a href="">AboutUs</a></li>
+            <li type="none"><a href="/aboutUs">AboutUs</a></li>
             <li type="none"><a href="/allProducts">AllProducts</a></li>
-        </ul>
-        <ul id={styles.ulNavBarCart}>
             <li type="none" onClick={varDropdownFunct}><a href="/profile" >Profile</a></li>
             <div className="dropdownDiv" id={styles.dropdownDiv}>
                 <li type="none"><a href="/cart" >Cart</a></li>

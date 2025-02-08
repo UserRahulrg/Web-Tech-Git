@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import styles from "./Signup.module.css";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
+
+  let useNavigateVar = useNavigate();
+
   const [signupuser, setSignupuser] = useState({
     username: "",
     email: "",
@@ -18,13 +22,18 @@ const Signup = () => {
     e.preventDefault();
     console.log(signupuser);
     try {
-      let resp = await axios.post("http://localhost:6060/users", signupuser);
+      let resp = await axios.post("http://localhost:3000/users", signupuser);
       console.log(resp);
       console.log("data sent successfully");
       setSignupuser({ username: "", email: "", password: "" }); // clear inputs
+      alert("User Registered!!")
+      useNavigateVar("/logIn")
+      
     } catch (error) {
       console.log(error);
       console.log("error while sending data");
+      alert("Not Registered!!")
+      useNavigateVar("/signUp")
     }
   };
 

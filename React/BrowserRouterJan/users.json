@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "username": "krishna",
+      "email": "krishna@gmail.com",
+      "password": "1234@"
+    },
+    {
+      "id": "618f",
+      "username": "qwerty@gmail.com",
+      "email": "qwerty@gmail.com",
+      "password": "12345689"
+    },
+    {
+      "id": "440e",
+      "username": "rahul",
+      "email": "rahul@gmail.com",
+      "password": "1234@"
+    },
+    {
+      "id": "9e22",
+      "username": "james",
+      "email": "james@gmail.com",
+      "password": "1234@"
+    },
+    {
+      "id": "7313",
+      "username": "mozambo",
+      "email": "mozambo@gmail.com",
+      "password": "1234@"
+    }
+  ]
+}

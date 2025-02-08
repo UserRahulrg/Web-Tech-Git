@@ -1,8 +1,18 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Login.module.css";
 import axios from "axios";
+// import AllProducts from "../allproducts/AllProducts";
+import { Navigate, useNavigate } from "react-router-dom";
+// import { redirect } from "react-router-dom";
+// import { redirect } from "react-router-dom";
 
 const Login = () => {
+
+  
+    let useNavigateVar = useNavigate();
+    
+  
+  
   const [loginuser, setLoginuser] = useState({
     email: "",
     password: "",
@@ -15,7 +25,7 @@ const Login = () => {
   };
 
   async function getSignupUsers() {
-    let { data } = await axios.get("http://localhost:6060/users");
+    let { data } = await axios.get("http://localhost:3000/users");
     console.log(data); //[{},{},{}]
     setAllusers(data);
   }
@@ -36,10 +46,17 @@ const Login = () => {
 
     if (authUser) {
       console.log("login successful");
+      alert("logged In!!")
+      useNavigateVar('/allProducts')
+
     } else {
       console.log("Please signup");
+      alert("NotRegistered!!")
+      useNavigateVar("/signUp")
     }
   };
+
+
 
   return (
     <div className={styles.loginContainer}>

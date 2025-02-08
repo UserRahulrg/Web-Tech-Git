@@ -10,6 +10,7 @@ import Login from "./login/Login";
 import AllProducts from "./allproducts/AllProducts"
 import Cart from "./cart/Cart";
 import EditProfile from "./editProfile/EditProfile";
+import AboutUs from "./aboutUs/AboutUs";
 // import Prof
 
 const App = ()=>{
@@ -25,9 +26,10 @@ const App = ()=>{
                     <Route path="/services" element={<Services/>}/>
                     <Route path="/contacts" element={<Contacts/>}/>
                     <Route path="/login" element={<Login></Login>}></Route>
-                    <Route path="/signup" element={<Signup></Signup>}></Route>
+                    <Route path="/signUp" element={<Signup></Signup>}></Route>
                     <Route path="/allProducts" element={<AllProducts/>}></Route>
                     <Route path ="/cart" element={<Cart/>}></Route>
+                    <Route path="/aboutUs" element={<AboutUs></AboutUs>}></Route>
                     {/* <Route path="/profile" element={<Profile></Profile>}></Route> */}
                     <Route path="/editProfile" element={<EditProfile/>}></Route>
                     {/* <Route path="/deleteProfile" element={}></Route> */}
