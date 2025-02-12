@@ -50,14 +50,14 @@ const Navbar =()=>{
 
             try {
                 
-                await axios.delete('https://localhost:3000/users/${user_id') ;
+                await axios.delete('https://localhost:5173/users/${user_id') ;
                 alert("profile deleted")
                 logout()
 
             } catch (error) {
                 
                 console.log("unable to delete",error);
-                alert("unable to delete!!")
+                alert("unable to delete!!")         
 
             }
         }

@@ -11,6 +11,7 @@ import AllProducts from "./allproducts/AllProducts"
 import Cart from "./cart/Cart";
 import EditProfile from "./editProfile/EditProfile";
 import AboutUs from "./aboutUs/AboutUs";
+import Profile from "./profile/Profile";
 // import Prof
 
 const App = ()=>{
@@ -31,10 +32,12 @@ const App = ()=>{
                     <Route path ="/cart" element={<Cart/>}></Route>
                     <Route path="/aboutUs" element={<AboutUs></AboutUs>}></Route>
                     {/* <Route path="/profile" element={<Profile></Profile>}></Route> */}
+                    <Route path="/profile" element={<Profile/>}></Route>
                     <Route path="/editProfile" element={<EditProfile/>}></Route>
                     {/* <Route path="/deleteProfile" element={}></Route> */}
+
                 </Routes>
-                
+        
             </BrowserRouter>
             
         </div>
