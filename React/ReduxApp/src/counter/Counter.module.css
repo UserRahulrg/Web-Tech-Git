@@ -1,0 +1,21 @@
+*{
+    background-color: whitesmoke;
+}
+
+#reducerDiv{
+    padding: 10px 350px 10px 10px;
+}
+
+#reducerDiv button{
+    
+    width: 140px;
+    height: 31px;
+    border-radius: 6px;
+    
+
+}
+
+#reducerDiv button:hover{
+    width: 170px;
+    height: 37px;
+}

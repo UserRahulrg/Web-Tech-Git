@@ -14,7 +14,7 @@ export let counterSlice = createSlice({
         }
         ,
         reset:(state,action)=>{
-            return 0;
+            return "error.....";
         }
     }
 })

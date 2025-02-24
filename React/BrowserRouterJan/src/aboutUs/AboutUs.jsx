@@ -1,12 +1,11 @@
 import styles from "./AboutUs.module.css"
-import style from "./Responsive.module.css"
+// import style from "./Responsive.module.css"
 
 const AboutUs = () =>{
 
     // const container = {
     //     // define your container styles or properties here
     //   };
-
 
     return(
         <div className={styles.container}>
